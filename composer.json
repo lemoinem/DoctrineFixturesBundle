@@ -3,7 +3,6 @@
     "type": "symfony-bundle",
     "description": "Symfony DoctrineFixturesBundle",
     "keywords": ["Persistence", "Fixture"],
-    "homepage": "http://www.doctrine-project.org",
     "license": "MIT",
     "authors": [
         {

@@ -92,6 +92,7 @@ EOT
             $paths = array();
             foreach ($this->getApplication()->getKernel()->getBundles() as $bundle) {
                 $paths[] = $bundle->getPath().'/DataFixtures/ORM';
+                $paths[] = $bundle->getPath().'/src/DataFixtures/ORM';
             }
         }
 
